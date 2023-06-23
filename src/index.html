@@ -4,152 +4,172 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ciclo-P 📌</title>
+    <title>ciclo-P</title>
     <link href="main.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="features.css">
     <link rel="stylesheet" href="heroes.css">
+    <link rel="icon" href="/assets/favicon/32x32.png" sizes="32x32">
+    <link rel="icon" href="/assets/favicon/128x128.png" sizes="128x128">
+    <link rel="icon" href="/assets/favicon/180x180.png" sizes="180x180">
+    <link rel="icon" href="/assets/favicon/192x192.png" sizes="192x192">
 </head>
 
 <body>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
-    <!-- NAVEGACIÓN, BARRA SUPERIOR -->
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
-            <span class="fs-4">ciclo-P</span>
-        </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#características" class="nav-link">Características</a></li>
-            <li class="nav-item"><a href="#metodología" class="nav-link">Metodología</a></li>
-            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Equipo</a></li>
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Plataforma</a></li>
-        </ul>
-    </header>
+    <!-- todo va acá adentro? -->
+    <div class="col-lg-8 mx-auto p-4 py-md-5">
 
-    <main>
-        <!-- DESCRIPCIÓN -->
-        <div class="px-4 pt-5 my-5 text-center border-bottom" id="descripción">
-            <h1 class="display-4 fw-bold text-body-emphasis">ciclo-P</h1>
-            <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Una herramienta de predicción de viajes orientada al ciclismo urbano, basada en el
-                    modelo de transporte de cuatro etapas. Permite simular los efectos de un cambio en la población, los
-                    equipamientos y/o las ciclovías en el número de viajes en bicicleta.</p>
-                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Ir a la plataforma</button>
+
+        <!-- NAVEGACIÓN, BARRA SUPERIOR -->
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <!-- <a href="#"
+                    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <span class="fs-4">ciclo-P</span>
+                </a> -->
+            <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto">
+                <img alt="ciclo-p Logo" src="../assets/logotipo-blanco.svg" decoding="async" data-nimg="1"
+                    class="styles_image__Kup2s" style="color:transparent" width="150" height="50">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
+                <li class="nav-item"><a href="#metodología" class="nav-link">Metodología</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Equipo</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Plataforma</a></li>
+            </ul>
+        </header>
+
+
+
+        <main>
+            <!-- DESCRIPCIÓN -->
+            <div class="px-4 pt-5 my-5 text-center border-bottom" id="descripción">
+                <h1 class="display-4 fw-bold text-body-emphasis">ciclo-P</h1>
+                <div class="col-lg-10 mx-auto">
+                    <p class="lead mb-4">
+                        Ciclo-P es una herramienta de predicción de viajes en bicicleta, basada en el modelo de
+                        transporte de cuatro etapas. Permite simular los efectos de un cambio en la población, los
+                        equipamientos y las ciclovías en el número y la distribución espacial de los viajes en
+                        bicicleta, en distintas ciudades de Chile.
+                    </p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                        <button onclick="location.href='https://ciclo-p-frontend-tnky.vercel.app/'" type="button"
+                            class="btn btn-primary btn-lg px-4 me-sm-3">Ir a la plataforma</button>
+                    </div>
+                </div>
+                <div class="overflow-hidden" style="max-height: 70vh;">
+                    <div class="container px-5">
+                        <img src="../assets/img/pantallazo-arcos.png" class="img-fluid border rounded-3 shadow-lg mb-4"
+                            alt="Example image" loading="lazy" width="700" height="500">
+                    </div>
                 </div>
             </div>
-            <div class="overflow-hidden" style="max-height: 70vh;">
-                <div class="container px-5">
-                    <img src="https://placehold.co/600x400" class="img-fluid border rounded-3 shadow-lg mb-4"
-                        alt="Example image" loading="lazy" width="700" height="500">
+
+            <!-- ATRIBUTOS Y FUNCIONALIDADES -->
+            <div class="container px-4 py-5" id="funcionalidades">
+                <h1 class="display-5 fw-bold text-body-emphasis">Funcionalidades</h1>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+                    <!-- ATRIBUTO 1 -->
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <i class="bi-buildings" style="font-size: 2rem; color: white;"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">Crea escenarios urbanos</h3>
+                        <p>Crea de modo interactivo y sencillo, distintos escenarios urbanos, modificando la población,
+                            los
+                            usos de suelo y la red de ciclovías.</p>
+                    </div>
+                    <!-- ATRIBUTO 2 -->
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <i class="bi bi-map" style="font-size: 2rem; color: white;"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">Simula los viajes</h3>
+                        <p>Simula los viajes en bicicleta, utilizando el modelo clásico de cuatro etapas (generación,
+                            distribución, partición y asignación).</p>
+                    </div>
+                    <!-- ATRIBUTO 3 -->
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <i class="bi bi-eye" style="font-size: 2rem; color: white;"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">Visualiza todo</h3>
+                        <p>Visualiza los resultados de la predicción de viajes en distintos mapas, a nivel de zona o
+                            calle,
+                            para cada una de las cuatro etapas de la simulación.
+                    </div>
+                    <!-- ATRIBUTO 4 -->
+                    <div class="feature col">
+                        <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <i class="bi bi-files" style="font-size: 2rem; color: white;"></i>
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">Compara escenarios</h3>
+                        <p>Compara los resultados de la predicción de demanda de viajes entre distintos escenarios.</p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- ATRIBUTOS Y FUNCIONALIDADES -->
-        <div class="container px-4 py-5" id="características">
-            <h1 class="display-5 fw-bold text-body-emphasis">Funcionalidades</h1>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
-                <!-- ATRIBUTO 1 -->
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi-buildings" style="font-size: 2rem; color: white;"></i>
+            <!-- CÓMO FUNCIONA? -->
+            <div class="container px-4 py-5" id="metodología">
+                <h1 class="display-5 fw-bold text-body-emphasis">¿Cómo funciona?</h1>
+                <!-- DATOS EXPLICATIVOS -->
+                <div class="row row-cols-1 row-cols-md-2 g-5 py-5">
+                    <div class="col d-flex flex-column align-items-start gap-2">
+                        <h2 class="fw-bold text-body-emphasis">Modifica los datos explicativos</h2>
+                        <p class="text-body-secondary">
+                            Modifica, de modo interactivo y fácil los
+                            tres aspectos fundamentales que determinan los viajes en bicicleta:
+                        </p>
+                        <img src="../assets/img/amanda-hortiz-WZ6MPDJWH5A-unsplash_recorte.jpg"
+                            class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy"
+                            width="700" height="500">
+                        <!-- <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
                     </div>
-                    <h3 class="fs-2 text-body-emphasis">Crea escenarios urbanos</h3>
-                    <p>Crea y guarda, de modo interactivo, distintos escenarios urbanos (la población, los usos de suelo
-                        y la red de ciclovías)</p>
-                </div>
-                <!-- ATRIBUTO 2 -->
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi bi-map" style="font-size: 2rem; color: white;"></i>
-                    </div>
-                    <h3 class="fs-2 text-body-emphasis">Simula los viajes</h3>
-                    <p>Simular y visualizar mediante mapas, estadísticas y gráficos, los viajes a nivel de zona y calle
-                        para cada escenario.</p>
-                </div>
-                <!-- ATRIBUTO 3 -->
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi bi-eye" style="font-size: 2rem; color: white;"></i>
-                    </div>
-                    <h3 class="fs-2 text-body-emphasis">Visualiza todo</h3>
-                    <p>Visualiza mapas a nivel de zona o calle, con información relevante asociada las distintas etapas
-                        de
-                </div>
-                <!-- ATRIBUTO 4 -->
-                <div class="feature col">
-                    <div
-                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                        <i class="bi bi-files" style="font-size: 2rem; color: white;"></i>
-                    </div>
-                    <h3 class="fs-2 text-body-emphasis">Compara escenarios</h3>
-                    <p>Compara los resultados de una simulación con un escenario base (sin cambios) o con otra
-                        simulación.</p>
-                </div>
-            </div>
-        </div>
 
-        <!-- CÓMO FUNCIONA? -->
-        <div class="container px-4 py-5" id="metodología">
-            <h1 class="display-5 fw-bold text-body-emphasis">Metodología</h1>
-            <!-- DATOS EXPLICATIVOS -->
-            <div class="row row-cols-1 row-cols-md-2 g-5 py-5">
-                <div class="col d-flex flex-column align-items-start gap-2">
-                    <h2 class="fw-bold text-body-emphasis">Modificación de los datos explicativos</h2>
-                    <p class="text-body-secondary">La plataforma permite modificar de modo interactivo y fácil los tres
-                        aspectos fundamentales que determinan los viajes en bicicleta (en horario punta mañana?).</p>
-                    <!-- <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
-                </div>
-
-                <div class="col">
-                    <div class="row row-cols-1 row-cols-sm-2 g-4">
-                        <!-- población -->
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-people" style="font-size: 2rem; color: white;"></i>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-sm-2 g-4">
+                            <!-- población -->
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-people" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">La población</h4>
+                                <p class="text-body-secondary">Aumentando o disminuyendo el total de habitantes o la
+                                    densidad en cada una de las zonas de modelación.
+                                </p>
                             </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">La población</h4>
-                            <p class="text-body-secondary">Aumentando o disminuyendo el total de habitantes o la
-                                densidad en cada una de las zonas de modelación (pantallazo? Animación? Foto
-                                relacionada?)
-                            </p>
-                        </div>
-                        <!-- localización de actividades -->
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-hospital" style="font-size: 2rem; color: white;"></i>
+                            <!-- localización de actividades -->
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-hospital" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">La localización de actividades</h4>
+                                <p class="text-body-secondary">Modificando el total de metros cuadrados o la densidad de
+                                    cada uso específico en cada una de las zonas de modelación.</p>
                             </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">La localización de actividades</h4>
-                            <p class="text-body-secondary">Modificando el total de metros cuadrados o la densidad de
-                                cada uso específico en cada una de las zonas de modelación (pantallazo? Animación? Foto
-                                relacionada?).</p>
-                        </div>
-                        <!-- red ciclovías -->
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-bicycle" style="font-size: 2rem; color: white;"></i>
+                            <!-- red ciclovías -->
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-bicycle" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">La red de ciclovías</h4>
+                                <p class="text-body-secondary">Creando nuevos ejes de ciclovías sobre la red de
+                                    transporte existente.
+                                </p>
                             </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">La red de ciclovías</h4>
-                            <p class="text-body-secondary">Creando nuevos ejes sobre la red de transporte existente.
-                            </p>
-                        </div>
-                        <!-- en desuso -->
-                        <!-- <div class="col d-flex flex-column gap-2">
+                            <!-- en desuso -->
+                            <!-- <div class="col d-flex flex-column gap-2">
                             <div
                                 class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
                                 <svg class="bi" width="1em" height="1em">
@@ -160,115 +180,128 @@
                             <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.
                             </p>
                         </div> -->
-                    </div>
-                </div>
-            </div>
-            <!-- SIMULACIÓN -->
-            <div class="row row-cols-1 row-cols-md-2 g-5 py-5">
-                <div class="col d-flex flex-column align-items-start gap-2">
-                    <h2 class="fw-bold text-body-emphasis">Simulación de viajes</h2>
-                    <p class="text-body-secondary">La simulación de los viajes en bicicleta se realiza mediante un modelo de cuatro
-                        etapas: generación, distribución, partición y asignación, enfocado específicamente en los viajes
-                        en bicicleta.</p>
-                    <!-- <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
-                </div>
-
-                <div class="col">
-                    <div class="row row-cols-1 row-cols-sm-2 g-4">
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-1-circle" style="font-size: 2rem; color: white;"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Generación/atracción</h4>
-                            <p class="text-body-secondary">La primera etapa consiste en establecer la generación y
-                                atracción de viajes (expandir, incluir qué se puede visualizar)
-                            </p>
-                        </div>
-
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-2-circle" style="font-size: 2rem; color: white;"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Distribución</h4>
-                            <p class="text-body-secondary">La segunda distribuye los viajes entre zonas (expandir).
-                            </p>
-                        </div>
-
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-3-circle" style="font-size: 2rem; color: white;"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Partición</h4>
-                            <p class="text-body-secondary">La tercera etapa establece la partición modal de la bicicleta
-                                los viajes (desde y hacia cada zona).
-                            </p>
-                        </div>
-
-                        <div class="col d-flex flex-column gap-2">
-                            <div
-                                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                                <i class="bi-4-circle" style="font-size: 2rem; color: white;"></i>
-                            </div>
-                            <h4 class="fw-semibold mb-0 text-body-emphasis">Asignación</h4>
-                            <p class="text-body-secondary">La cuarta etapa asigna (reparte?) los viajes en bicicleta a
-                                la red vial, tomando en cuenta sus atributos y cómo estos facilitan o dificultan su uso
-                                (como el tipo de calle, la presencia de ciclovías, la presencia de buses y la
-                                pendiente).
-                            </p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <!-- SIMULACIÓN -->
+                <div class="row row-cols-1 row-cols-md-2 g-5 py-5">
+                    <div class="col d-flex flex-column align-items-start gap-2">
+                        <h2 class="fw-bold text-body-emphasis">Simula de la demanda de viajes en bicicleta</h2>
+                        <p class="text-body-secondary">La predicción de viajes en bicicleta se realiza mediante un
+                            modelo de cuatro etapas: generación, distribución, partición y asignación, enfocado
+                            específicamente en los viajes realizados por ciclistas en el ámbito urbano.</p>
+                        <img src="/assets/img/clem-onojeghuo-mbZsLMDBPiY-unsplash_recorte.jpg"
+                            class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" loading="lazy"
+                            width="700" height="500">
+                        <!-- <a href="#" class="btn btn-primary btn-lg">Primary button</a> -->
+                    </div>
 
-        <!-- CONTACTO -->
-        <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="contacto">
-            <div class="row align-items-center g-lg-5 py-5">
-                <div class="col-lg-7 text-center text-lg-start">
-                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Si te interesa saber más, contáctanos!
-                    </h1>
-                    <p class="col-lg-10 fs-4">Crees que tu empresa, municipalidad u organización podría aprovechar esta herramienta? No dudes en escribirnos!</p>
-                </div>
-                <!-- FORMULARIO -->
-                <div class="col-md-10 mx-auto col-lg-5">
-                    <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" target="_blank"
-                        action="https://formsubmit.co/ignacio.abe@gmail.com" method="POST">
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email">
-                            <label for="exampleFormControlInput1">e-mail</label>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-sm-2 g-4">
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-1-circle" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Generación/atracción</h4>
+                                <p class="text-body-secondary">La primera etapa consiste en establecer la generación y
+                                    atracción de viajes, es decir cuántos viajes salen y llegan a cada zona.
+                                </p>
+                            </div>
+
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-2-circle" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Distribución</h4>
+                                <p class="text-body-secondary">La segunda distribuye los viajes entre zonas, es decir,
+                                    calcula cuántos viajes se dirigen desde cada una de las zonas hacia todas las demás.
+                                </p>
+                            </div>
+
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-3-circle" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Partición</h4>
+                                <p class="text-body-secondary">La tercera etapa establece la partición modal de la
+                                    bicicleta
+                                    los viajes (desde y hacia cada zona).
+                                </p>
+                            </div>
+
+                            <div class="col d-flex flex-column gap-2">
+                                <div
+                                    class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+                                    <i class="bi-4-circle" style="font-size: 2rem; color: white;"></i>
+                                </div>
+                                <h4 class="fw-semibold mb-0 text-body-emphasis">Asignación</h4>
+                                <p class="text-body-secondary">La cuarta etapa asigna los viajes en bicicleta a la red
+                                    vial,
+                                    buscando una ruta eficiente para cada par origen destino. Estas rutas toman en
+                                    consideración los atributos de la red que afectan su uso en bicicleta (como el tipo
+                                    de
+                                    calle, la presencia de ciclovías, la presencia de buses y la pendiente).
+                                </p>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" required
-                                rows="6" placeholder="mensaje"></textarea>
-                        </div>
-                        <button id="manda-formulario" class="w-100 btn btn-lg btn-primary" type="submit">Enviar
-                            mensaje</button>
-                    </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
 
-    <!-- PIE -->
-    <footer class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-            <li class="nav-item"><a href="#características" class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
-            <li class="nav-item"><a href="#metodología" class="nav-link px-2 text-body-secondary">Metodología</a></li>
-            <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-body-secondary">Contacto</a></li>
-            <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <!-- CONTACTO -->
+            <div class="container px-4 py-5" id="contacto">
+                <div class="row align-items-center g-lg-5 py-5">
+                    <div class="col-lg-7 text-center text-lg-start">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Si te interesa saber más,
+                            contáctanos!
+                        </h1>
+                        <p class="col-lg-10 fs-4">Crees que tu empresa, municipalidad u organización podría aprovechar
+                            esta
+                            herramienta? No dudes en escribirnos!</p>
+                    </div>
+                    <!-- FORMULARIO -->
+                    <div class="col-md-10 mx-auto col-lg-5">
+                        <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary" target="_blank"
+                            action="https://formsubmit.co/ignacio.abe@gmail.com" method="POST">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="email">
+                                <label for="exampleFormControlInput1">e-mail</label>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" name="message" required
+                                    rows="6" placeholder="mensaje"></textarea>
+                            </div>
+                            <button id="manda-formulario" class="w-100 btn btn-lg btn-primary" type="submit">Enviar
+                                mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- PIE -->
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                <li class="nav-item"><a href="#funcionalidades"
+                        class="nav-link px-2 text-body-secondary">Funcionalidades</a></li>
+                <li class="nav-item"><a href="#metodología" class="nav-link px-2 text-body-secondary">Metodología</a>
+                </li>
+                <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+                <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
-        </ul>
-        <p class="text-center text-body-secondary">© 2023 ciclo-P</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 ciclo-P</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    </div>
 </body>
 
 <script src="main.js"></script>

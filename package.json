@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "browser-sync start --server --watch --startPath src",
     "precss": "sass --watch --no-source-map sass/main.scss src/main.css"
   },
   "author": "Ignacio Abé",
