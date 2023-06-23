@@ -25,18 +25,15 @@ etapas de la predicción de viajes.
 **Compara escenarios:** Compara los resultados de la predicción de
 demanda de diferentes escenarios.
 
-**Metodología**
+## Metodología
 
 **Modificación de los datos explicativos**
 
-La plataforma permite modificar de modo interactivo y fácil los aspectos
-fundamentales de una ciudad que determinan los viajes en bicicleta.
+La plataforma permite modificar de modo interactivo y fácil los aspectos fundamentales de una ciudad que determinan los viajes en bicicleta.
 
 ## Simulación de viajes
 
-La predicción de la demanda de viajes en bicicleta se realiza mediante
-un modelo de cuatro etapas: generación, distribución, partición y
-asignación.
+La predicción de la demanda de viajes en bicicleta se realiza mediante un modelo de cuatro etapas: generación, distribución, partición y asignación.
 
 #### Partición
 
