@@ -21,11 +21,10 @@
         crossorigin="anonymous"></script>
 
     <!-- todo va acá adentro? -->
-    <div class="col-lg-8 mx-auto p-4 py-md-5">
-
+    <div class="col-lg-8 mx-auto">
 
         <!-- NAVEGACIÓN, BARRA SUPERIOR -->
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
             <!-- <a href="#"
                     class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
                     <span class="fs-4">ciclo-P</span>
@@ -38,8 +37,9 @@
                 <li class="nav-item"><a href="#funcionalidades" class="nav-link">Funcionalidades</a></li>
                 <li class="nav-item"><a href="#metodología" class="nav-link">Metodología</a></li>
                 <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Equipo</a></li>
-                <li class="nav-item"><a href="https://ciclop-production.vercel.app/" class="nav-link active" aria-current="page">Plataforma</a></li>
+                <!-- <li class="nav-item"><a href="#" class="nav-link">Equipo</a></li> -->
+                <li class="nav-item"><a href="https://ciclop-production.vercel.app/" class="nav-link active"
+                        aria-current="page">Plataforma</a></li>
             </ul>
         </header>
 
@@ -47,7 +47,7 @@
 
         <main>
             <!-- DESCRIPCIÓN -->
-            <div class="px-4 pt-5 my-5 text-center border-bottom" id="descripción">
+            <div class="px-4 pt-5 my-5 text-center" id="descripción">
                 <h1 class="display-4 fw-bold text-body-emphasis">ciclo-P</h1>
                 <div class="col-lg-10 mx-auto">
                     <p class="lead mb-4">
@@ -56,19 +56,40 @@
                         simular los efectos de un cambio en la población, la superficie construída para distintos usos y
                         las ciclovías en el número de viajes en bicicleta.
                     </p>
+                    <!-- botones -->
                     <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                        <button onclick="location.href='https://app.ciclo-p.cl/'" type="button"
+                        <button onclick="location.href='https://dev.ciclo-p.cl/'" type="button"
                             class="btn btn-primary btn-lg px-4 me-sm-3">Ir a la plataforma</button>
                         <button onclick="location.href='assets/pdf/artículo-final.pdf'" type="button"
                             class="btn btn-secondary btn-lg px-4 me-sm-3">Leer el artículo científico</button>
-                            
                     </div>
                 </div>
-                <div class="" style="max-height: 70vh;">
-                    <div class="container px-5">
-                        <img src="assets/img/pantallazo-arcos.png" class="img-fluid border rounded-3 shadow-lg mb-4"
-                            alt="Example image" loading="lazy" width="700" height="">
+                <!-- Carrusel -->
+                <div id="carouselExample" class="carousel carousel-dark slide shadow-lg">
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="assets/img/interfaz/zonas-población.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/interfaz/zonas-generación-delta.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/interfaz/arcos.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/interfaz/arcos-delta.png" class="d-block w-100" alt="...">
+                        </div>
                     </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
 
