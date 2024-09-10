@@ -10,7 +10,7 @@ menu:
     href: "#equipo"
   - title: Contact
     href: "#contacto"
-  - title: webapp
+  - title: Web App
     href: "https://app.ciclo-p.cl/"
 hero:
   title: Ciclo-P
@@ -20,38 +20,40 @@ hero:
       href: https://app.ciclo-p.cl/
       type: primary
     - title: Read the scientific article
-      href: assets/pdf/artículo-final.pdf
+      href: /assets/pdf/artículo-final.pdf
       type: secondary
   carousel:
-    - figure: assets/img/interfaz/zonas-poblacion.png
+    - figure: /assets/img/interfaz/zonas-poblacion.png
       active: true
-    - figure: assets/img/interfaz/edicion-ciclovias.png
+    - figure: /assets/img/interfaz/edicion-ciclovias.png
       active: false
-    - figure: assets/img/interfaz/zonas-generacion-delta.png
+    - figure: /assets/img/interfaz/zonas-generacion-delta.png
       active: false
-    - figure: assets/img/interfaz/arcos.png
+    - figure: /assets/img/interfaz/arcos.png
       active: false
-    - figure: assets/img/interfaz/arcos-delta.png
+    - figure: /assets/img/interfaz/arcos-delta.png
       active: false
 features:
-  - title: Create urban scenarios
-    icon: buildings
-    description: Create interactive and easy-to-use urban scenarios by modifying the population, land use, and bike lane network.
-  - title: Simulate trips
-    icon: map
-    description: Simulate bicycle trips using four-stage transport demand models (trip generation, destination choice, mode choice, and assignment to the network).
-  - title: Visualize everything
-    icon: eye
-    description: Visualize travel prediction results on different maps, at the zone or street level, for each of the four simulated demand models.
-  - title: Compare scenarios
-    icon: files
-    description: Compare the results of travel demand predictions between different scenarios.
+  title: Features
+  parts:
+    - title: Create urban scenarios
+      icon: buildings
+      description: Create interactive and easy-to-use urban scenarios by modifying the population, land use, and bike lane network.
+    - title: Simulate trips
+      icon: map
+      description: Simulate bicycle trips using four-stage transport demand models (trip generation, destination choice, mode choice, and assignment to the network).
+    - title: Visualize everything
+      icon: eye
+      description: Visualize travel prediction results on different maps, at the zone or street level, for each of the four simulated demand models.
+    - title: Compare scenarios
+      icon: files
+      description: Compare the results of travel demand predictions between different scenarios.
 explanation:
   title: How does it work?
   parts:
     - title: Modify explanatory data
       description: "Interactively and easily modify the three fundamental aspects that determine bicycle trips:"
-      figure: assets/img/amanda-hortiz-WZ6MPDJWH5A-unsplash_recorte.jpg
+      figure: /assets/img/amanda-hortiz-WZ6MPDJWH5A-unsplash_recorte.jpg
       figure-caption: Photo by <a href="https://unsplash.com/@amandahortiz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Amanda Hortiz</a> on <a href="https://unsplash.com/es/fotos/WZ6MPDJWH5A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       subparts:
         - title: Population
@@ -65,7 +67,7 @@ explanation:
           icon: bicycle
     - title: Simulate bicycle trip demand
       description: "Bicycle trip prediction is performed through a four-stage model: trip generation, destination choice, mode choice, and assignment to the network, specifically focused on urban cycling trips."
-      figure: assets/img/clem-onojeghuo-mbZsLMDBPiY-unsplash_recorte.jpg
+      figure: /assets/img/clem-onojeghuo-mbZsLMDBPiY-unsplash_recorte.jpg
       figure-caption: Photo by <a href="https://unsplash.com/@clemono?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clem Onojeghuo</a> on <a href="https://unsplash.com/es/fotos/mbZsLMDBPiY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
       subparts:
         - title: Trip generation
@@ -89,9 +91,9 @@ contact:
 support:
   title: "With the support of:"
   logos:
-    - figure: assets/img/logos/CEDEUS.png
-    - figure: assets/img/logos/PUC.png
-    - figure: assets/img/logos/ANID.png
-    - figure: assets/img/logos/cityplanning.png
-    - figure: assets/img/logos/GORE.jpg
+    - figure: /assets/img/logos/CEDEUS.png
+    - figure: /assets/img/logos/PUC.png
+    - figure: /assets/img/logos/ANID.png
+    - figure: /assets/img/logos/cityplanning.png
+    - figure: /assets/img/logos/GORE.jpg
 ---
