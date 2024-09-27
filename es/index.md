@@ -49,6 +49,29 @@ features:
     - title: Compara escenarios
       icon: files
       description: Compara los resultados de la predicción de demanda de viajes entre distintos escenarios.
+team:
+  title: Equipo
+  parts:
+    - title: Ricardo Hurtubia, PhD
+      photo: /assets/img/equipo/Ricardo.png
+      description: "Professor: School of Architecture / Transport and Logistics Engineering @ PUC."
+      experience: "Experience: Integrated transportation and land use models, discrete choice models related to public space and transportation systems."
+      link: https://www.linkedin.com/in/ricardohurtubia/
+    - title: Homero Larraín, PhD
+      photo: /assets/img/equipo/Homero.png
+      description: "Professor: Transport and Logistics Engineering @ PUC."
+      experience: "Experience: Optimization, transport network design, transport network equilibrium, and vehicle routing."
+      link: https://www.linkedin.com/in/homerolarrain/
+    - title: Sebastián Raveau, PhD
+      photo: /assets/img/equipo/Sebastian.png
+      description: "Professor: Transport and Logistics Engineering @ PUC."
+      experience: "Experience: Transport demand, transport user behavior."
+      link: https://www.linkedin.com/in/sraveau/
+    - title: Ignacio Abé
+      photo: /assets/img/equipo/Ignacio.png
+      description: Architect @ PUC and master in Urban Studies @ Università Iuav di Venezia.
+      experience: "Experience: Sustainable mobility, cartography, programming, and geospatial information analysis."
+      link: https://www.linkedin.com/in/ignacio-abe-castro/
 explanation:
   title: ¿Cómo funciona?
   parts:

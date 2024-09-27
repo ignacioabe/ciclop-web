@@ -75,7 +75,6 @@
                     </div>
                 </div>
                 <!-- Carrusel -->
-                <!-- PENDIENTE: cambiarlo por un bucle -->
                 <div id="carouselExample" class="carousel carousel-dark slide shadow-lg">
                     <div class="carousel-inner rounded">
                         {% for item in page.hero.carousel %}
@@ -97,7 +96,7 @@
                 </div>
             </div>
 
-            <!-- ATRIBUTOS Y FUNCIONALIDADES -->
+            <!-- FUNCIONALIDADES -->
             <div class="container px-4 py-5" id="funcionalidades">
                 <h1 class="display-5 fw-bold text-body-emphasis">{{ page.features.title }}</h1>
                 <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
@@ -114,7 +113,8 @@
                     {% endfor %}
                 </div>
             </div>
-            <!-- EXPLICA FUNCIONAMIENTO -->
+
+            <!-- METODOLOGÍA -->
             <div class="container px-4 py-5" id="metodología">
                 <h1 class="display-5 fw-bold text-body-emphasis">{{ page.explanation.title }}</h1>
                 {% for item in page.explanation.parts %}
@@ -148,6 +148,30 @@
                 {% endfor %}
             </div>
 
+            <!-- EQUIPO -->
+            <div class="container px-4 py-5" id="equipo">
+                <h1 class="display-5 fw-bold text-body-emphasis">{{ page.team.title }}</h1>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+                    <!-- bucle atributos -->
+                    {% for item in page.team.parts %}
+                    <div class="feature col pb-5">
+                        <!-- <div
+                            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                            <i class="bi bi-{{ item.icon }}" style="font-size: 2rem; color: white;"></i>
+                        </div> -->
+                        <div class="w-50 rounded-circle ratio ratio-1x1 bg-primary-subtle bg-gradient fs-2 mb-3">
+                            <img src="{{ item.photo }}" alt="" class="rounded-circle" style="mix-blend-mode: normal">
+                        </div>
+                        <h3 class="fs-2 text-body-emphasis">{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                        <p>{{ item.experience }}</p>
+                        <button onclick="location.href='{{ item.link }}'" type="button"
+                        class="btn btn-outline-primary btn-xs px-4 me-sm-3">linkedin</button>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
             <!-- CONTACTO -->
             <div class="container px-4 py-5" id="contacto">
                 <div class="row align-items-center g-lg-5 py-5">
