@@ -151,7 +151,7 @@
             <!-- EQUIPO -->
             <div class="container px-4 py-5" id="equipo">
                 <h1 class="display-5 fw-bold text-body-emphasis">{{ page.team.title }}</h1>
-                <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+                <div class="row g-4 py-5 row-cols-1 row-cols-md-2 row-cols-xxl-4">
                     <!-- bucle atributos -->
                     {% for item in page.team.parts %}
                     <div class="feature col pb-5">
@@ -203,12 +203,12 @@
         </main>
 
         <!-- CON EL APOYO DE -->
-        <div class="container px-4 py-5" id="funcionalidades">
+        <div class="container px-4 py-5" id="apoyos">
             <h1 class="display-5 fw-bold text-body-emphasis">{{ page.support.title }}</h1>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+            <div class="row g-4 py-5 row-cols-3 row-cols-lg-4 row-cols-xxl-5">
                 {% for item in page.support.logos %}
-                <div class="feature col">
-                    <img src="{{ item.figure }}" alt="" loading="lazy" width="200">
+                <div class="feature col p-10">
+                    <img src="{{ item.figure }}" alt="" loading="lazy" width="100%">
                 </div>
                 {% endfor %}
             </div>
